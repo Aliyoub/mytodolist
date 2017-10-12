@@ -40,7 +40,7 @@ on en crée une vide sous forme d'array avant la suite */
 })
 
 /* On affiche la todolist et le formulaire */
-.get('/todo', function(req, res) { 
+.get('/todotempo', function(req, res) { 
     res.render('todo.ejs', {todolist: req.session.todolist});
 })
 
