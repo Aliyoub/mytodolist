@@ -1,0 +1,6 @@
+applications:
+- name: firstcfapp
+  host: firstcfapp
+  command: node app
+  memory: 128M
+  instances: 1
